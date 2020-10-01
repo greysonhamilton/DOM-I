@@ -105,3 +105,15 @@ foot.textContent = siteContent.footer.copyright;
 navHead.forEach((item) => {
   item.style.color = 'green';
 })
+
+const newNav = document.createElement('a');
+newNav.textContent = "Technical";
+
+const nav = document.querySelector('nav');
+nav.append(newNav);
+
+const newNav2 = document.createElement('a');
+newNav2.textContent = "Requirements";
+
+const nav2 = document.querySelector('nav');
+nav2.prepend(newNav2);
