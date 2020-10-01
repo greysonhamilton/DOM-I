@@ -101,3 +101,7 @@ addyInfo[2].textContent = siteContent.contact.email;
 
 const foot = document.querySelector('footer p');
 foot.textContent = siteContent.footer.copyright;
+
+navHead.forEach((item) => {
+  item.style.color = 'green';
+})
